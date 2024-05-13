@@ -62,18 +62,46 @@
                    
             </div>
         </div>
+        <!-- Daia -->
         <div class="daia"></div>
         <div class="especialidades-daia">
             <h2>SUAS <strong>ESPECIALIDADES</strong></h2>
         </div>
         <div class="especialidades">
-            <img src="imagens/aerobico.png" alt="">
-            <img src="imagens/musculação.png" alt="">
-            <img src="imagens/pilates.png" alt="">
+            <div class="card">
+                <img src="imagens/aerobico.png" alt="">
+                <div class="card-text">
+                    <a href="aerobico.html"><button>Aeróbica</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagens/musculação.png" alt="">
+                <div class="card-text">
+                    <a href="musculacao.html"><button>Musculação</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagens/pilates.png" alt="">
+                <div class="card-text">
+                    <a href="pilates.html"><button>Pilates</button></a>
+                </div>
+            </div>
         </div>
+        <!-- Daia -->
+        <!-- Contato -->
         <div class="contato">
             <h2>ENTRE EM <strong>CONTATO</strong></h2>
+            <div class="contato-form">
+                <form action="enviar.php" method="post">
+                    <input type="text" name="nome" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="tel" name="telefone" placeholder="Telefone" required>
+                    <textarea name="mensagem" placeholder="Mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
         </div>
+    
     </main>
     <!-- Main -->
     <!-- Footer -->
