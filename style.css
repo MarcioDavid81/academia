@@ -227,6 +227,7 @@ h2{
 }
 .contato .formulario textarea{
     height: 100px;
+    font-family: 'Roboto', sans-serif;
 }
 .contato .formulario input:focus{
     background-color: var(--color3);
