@@ -87,7 +87,7 @@ main .topo{
     height: 650px;
 }
 .titulo{
-    background-color: white;
+    background-color: var(--color1);
     padding-top: 50px;
 }
 .titulo h1{
@@ -100,14 +100,77 @@ main .topo{
 .titulo h1 strong{
     font-weight: 900;
 }
+h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--color2);
+    text-align: center;
+    padding: 40px 0;
+}
 .titulo p{
     font-size: 20px;
     color: var(--color2);
     text-align: center;
     padding: 0 0 40px 0;
 }
+.serviços{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px 0;
+}
+.serviços img{
+    width: 50px;
+    height: 50px;
+}
+.serviços .academia{
+    background-color: var(--color3);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.serviços .aerobica{
+    background-color: var(--color3);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.serviços .musculação{
+    background-color: var(--color3);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.serviços .personal{
+    background-color: var(--color3);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.casal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--color1);
+    padding-left: 100px;
+    padding-top: 50px;
+}
 .especialidades{
     display: flex;
     justify-content: space-between;
     padding: 50px 8%;
+    background-color: white;
+}
+.daia{
+    background-image: url(imagens/banner2.png);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    height: 650px;
+}
+.especialidades-daia{
+    text-align: center;
+    padding: 50px 8%;
+    background-color: white;
 }
