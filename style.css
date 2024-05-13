@@ -202,7 +202,7 @@ h2{
 .contato{
     background-image: url(imagens/banner3.png);
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     height: 650px;
     display: grid;
